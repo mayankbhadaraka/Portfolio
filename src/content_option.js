@@ -27,6 +27,11 @@ I am thrilled to help you bring your idea to life, whether you are wanting to de
 };
 const worktimeline = [
   {
+    jobtitle: "Prabhu Studio",
+    where: "Full Stack Developer",
+    date: "2023",
+  },
+  {
     jobtitle: "Lucent Innovation",
     where: "Full Stack Developer",
     date: "2023",
@@ -95,75 +100,70 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "https://th.bing.com/th/id/R.4977fd7c7bf45c82c71c3eb3a7df1408?rik=ciIKvB9EEsCGEA&riu=http%3a%2f%2finkbotdesign.com%2fwp-content%2fuploads%2f2014%2f05%2fChat-App-Logo.png&ehk=Jogv4DO2%2fzg2xzsyBqam22Dr4%2fEzDuhUK%2b%2fYEVt3OLo%3d&risl=&pid=ImgRaw&r=0",
-    description: "Chat Application With MERN Stack with Socket Server.",
-    link: "https://chatapp-sitr.onrender.com",
+    name:"Simply Shipping Protection",
+    img:"https://cdn.shopify.com/app-store/listing_images/eaa29711a692568b1be7bf589381f65d/icon/CIzE2oqLw_0CEAE=.png",
+    description:["Developed and implemented a shipping protection application for Shopify and BigCommerce platforms.",
+      "Addressed clients’ shipping-related issues and provided tailored solutions to enhance customer satisfaction and minimize risks.",
+      "Customized shipping protection settings, integrated third-party APIs, and ensured a seamless customer experience.",
+      "Demonstrated problem-solving skills and delivered high-quality solutions to meet client requirements in the e-commerce domain.",
+    "Managed extensive database with 500K+ rows, ensuring efficient organization and accessibility for seamless operations."],
+    demo:"https://apps.shopify.com/simply-insurance",
+    code:false
   },
   {
-    img: "https://i.pinimg.com/originals/de/1e/70/de1e7040e596e2ddba00140711793234.png",
-    description:
-      "Designed and developed a full-stack web application of QUOTE using ReactJS, NodeJS, ExpressJS, and MongoDB with authentication and authorization.",
-    link: "https://quote-shms.onrender.com/",
-  },
-  
-  {
-    img: "https://clipground.com/images/ecommerce-logo-png-5.png",
-    description: "Worked with Ecommerce platform  like Shopify and Bigcommerce",
-    link: "https://github.com/mayankbhadaraka/Shopify-Auth",
-  },
-  {
-    img: "https://cloud-elements.com/wp-content/uploads/2018/12/shopify-logo-600.jpg",
-    description:
-    "Created Shopify Application to manage customers and products.",
-    link: "https://github.com/mayankbhadaraka/Shopify-Admin",
+    name:"Simply Return",
+    img:"https://cdn.shopify.com/app-store/listing_images/517e05d0193f5f00d509d81bb6ccf7b8/icon/CIX0ppWhufkCEAE=.png",
+    description:[
+      "Developed a Shopify-based return management app, streamlining returns processing.",
+      "Integrated Fynd/Delhivery for improved shipping logistics.",
+      "Collaborated with Unicommerce/Increff for optimized warehouse management.",
+      "Crafted a user-friendly interface with live updates and error handling.",
+      "Enhanced app functionality using diverse third-party libraries.",
+      "Efficiently managed multiple databases, optimizing for diverse functions and data sources. Implemented various technologies to streamline operations across interconnected systems."
+    ],
+    demo:false,
+    code:false
   },
   {
-    img: "https://i.pinimg.com/originals/f9/d9/30/f9d93057dcffce913a699a889b8c83bd.jpg",
-    description:
-      "Designed a web application to make a list of tasks you want to do.In this application you can add and delete your task after you are done with that.",
-    link: "https://what-you-want-to-do--todo.web.app/",
+    name:"Ecommerce Website",
+    img:"https://res.cloudinary.com/durvski0m/image/upload/v1704297309/DealsDome/4.png",
+    description:[
+      "Developed an e-commerce platform using React, Redux, Node.js, Express.js, MongoDB, and various technologies. Integrated Stripe payment processing for secure transactions and ensured seamless user experiences.",
+      "Utilized MERN stack technologies to build and deploy the website for robust functionality.",
+      "Crafted intuitive, responsive user interfaces ensuring seamless customer experiences.",
+      "Implemented secure payment processing for reliable and protected transactions.",
+      "Integrated backend functionality to support the front-end, ensuring a cohesive user experience."
+    ],
+    demo:"https://dealsdome.onrender.com/",
+    code:"https://github.com/mayankbhadaraka/DealsDome.com"
   },
   {
-    img: "https://th.bing.com/th/id/R.1bab3ddffe45344bd1618cd60f723681?rik=w6iJ93%2f4JdSA9Q&riu=http%3a%2f%2fcareers.jobvite.com%2fcfds%2fpng%2f001-computer-1.png&ehk=MvMPgU2zig8Hq9QBvmlGISDh3yT43PQt8fxEyS%2bFc%2fY%3d&risl=&pid=ImgRaw&r=0",
-    description: "Created Admin Dashboard To manage other Admin's permission.",
-    link: "https://github.com/mayankbhadaraka/AdminDashboard",
+    name:"Simply Mart",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5V0iFdMMv-gmH1nvXL0zf6smYUwARrcIR7ad25WVl9g&s",
+    description:[
+      "Simply Mart application designed with Shopify Polaris, ensuring a user-friendly interface for seamless navigation.",
+      "Developed on BigCommerce using MongoDB, delivering a robust backend infrastructure for efficient data management.",
+      "Simplified product addition, enabling direct publishing to meta-platforms for enhanced customer accessibility and reach.",
+      "Integrated WhatsApp functionality for easy customer orders, leveraging Meta APIs to facilitate convenient transactions.",
+      "Utilized React, Node.js, Express, and MongoDB to create a highly responsive, scalable, and feature-rich application."
+    ],
+    demo:"https://simplymart.lucentinnovation.com/",
+    code:false
   },
   {
-    img: "https://thumbs.dreamstime.com/b/atm-face-recognition-concept-man-using-cash-machine-unlocking-account-secure-facial-biometric-data-scan-authentication-modern-192398267.jpg",
-    description:
-    "Cardless atm withdrawal system using facedetection. I have Used python face recognition and opencv library to detect face and used tkinter to make gui of atm and data base designed in sql.",
-    link: "https://github.com/mayankbhadaraka/ATM-Withdwal",
-  },
-  {
-    img: "https://miro.medium.com/max/1024/1*E5rexDhotCqksxqT4LKwyQ.jpeg",
-    description:
-      "Real time Face recognition attendance system using python module open cv and face recognition.",
-    link: "https://github.com/mayankbhadaraka/Attendance-Monitoring",
-  },
-  {
-    img: "https://th.bing.com/th/id/OIP.kqWW6rBtQAaGzVQeaBRbOwHaE8?pid=ImgDet&rs=1",
-    description: "Portfolio Website using ReactJs and Bootstrap",
-    link: "https://mayankbhadaraka.netlify.app/",
-  },
-  {
-    img: "https://blog.logrocket.com/wp-content/uploads/2020/12/next.js.png",
-    description:
-      "Created simply Website to manage users like Admin Dashboard using NextJs.",
-    link: "https://github.com/mayankbhadaraka/NextJs",
-  },
-
-  {
-    img: "https://th.bing.com/th/id/OIP.igIv7s_88Zvf5OVcBsONAgHaE8?pid=ImgDet&rs=1",
-    description:
-      "Created keyboard using Embedded C for circuit design I used protues 8 and for code i used atmel studio and microcontroller used is AtMega32.",
-    link: "https://github.com/mayankbhadaraka/Embadded-C-Hands-on",
-  },
-  {
-    img: "https://cdn.devdojo.com/images/january2021/html-for-beginners.jpg",
-    description:
-      "Designed Web Application For HTML beginners to learn basics of HTML",
-    link: "https://github.com/mayankbhadaraka/HTML-Beginer",
-  },
+    name:"Chat Application",
+    img:"https://th.bing.com/th/id/R.4977fd7c7bf45c82c71c3eb3a7df1408?rik=ciIKvB9EEsCGEA&riu=http%3a%2f%2finkbotdesign.com%2fwp-content%2fuploads%2f2014%2f05%2fChat-App-Logo.png&ehk=Jogv4DO2%2fzg2xzsyBqam22Dr4%2fEzDuhUK%2b%2fYEVt3OLo%3d&risl=&pid=ImgRaw&r=0",
+    description:[
+      "Utilized Express, Socket.IO for real-time communication, and authentication via JSON Web Tokens (jsonwebtoken).",
+      "Implemented MongoDB with Mongoose for efficient data handling and storage.",
+      "Leveraged Redux Toolkit for streamlined state management within the React application.",
+      "Integrated React Router DOM for efficient navigation and handling of route changes.",
+      "Incorporated emoji-picker-react and Moment.js for enhanced user interactions and time formatting.",
+      "Deployed cloudinary for image handling, bcrypt for password encryption, and axios for server-client communication."
+    ],
+    demo:"https://chatapp-sitr.onrender.com",
+    code:"https://github.com/mayankbhadaraka/Chat-App-Client-Server"
+  }
 ];
 
 const contactConfig = {

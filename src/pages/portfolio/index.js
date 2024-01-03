@@ -5,6 +5,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 
 export const Portfolio = () => {
+  function openNewTab(link) {
+    window.open(link, '_blank');
+  }
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -19,7 +22,38 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
+        <div className="projects">
+          {dataportfolio.map((data, i) => {
+            return (
+              <div key={i} className="projectDetails">
+                <div className="title">
+                  <h3>{data.name}</h3>
+                </div>
+                <div className="desc">
+                  <div className="img">
+                    <img src={data.img} />
+                  </div>
+                  <div className="desc">
+                    <ul className="eight-point-star">
+                      {
+                        data.description.map((item, z) => {
+                          return (
+                            <li key={z}>{item}</li>
+                          )
+                        })
+                      }
+                    </ul>
+                  </div>
+                </div>
+                <div className="footer">
+                  <button onClick={() => openNewTab(data.demo)} disabled={!data.demo}>Demo</button>
+                  <button onClick={() => openNewTab(data.code)} disabled={!data.code}>View Source</button>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+        {/* <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
@@ -31,7 +65,7 @@ export const Portfolio = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </Container>
     </HelmetProvider>
   );
