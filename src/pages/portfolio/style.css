@@ -46,14 +46,19 @@
 
 .img {
     display: flex;
-    /* width: 100%; */
+    width: 400px;
+    padding: 0px 10px;
+    border-radius: 15px;
     justify-content: center;
+    background-color: white;
+    align-items: center;
 }
 
 .img img {
     width: 400px;
-    height: 400px;
+    height: fit-content;
     border-radius: 15px;
+    background-color: white;
 }
 
 .title {
